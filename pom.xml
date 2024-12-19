@@ -30,6 +30,14 @@
         </plugins>
     </build>
 
+    <!-- Comment this out if you're not deploying! -->
+    <distributionManagement>
+        <repository>
+            <id>jsinco-repo</id>
+            <url>https://repo.jsinco.dev/releases</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>papermc</id>
